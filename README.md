@@ -16,3 +16,10 @@ The slope is not considered to be zero because the p-value is 5.35e-11, which is
 This linear model tested the quality of the fit of the model and found that the R-squared value was 0.7149, which is not as tight, however is able to produce predictions with some effectiveness. 
 
 ![image](https://user-images.githubusercontent.com/96396696/162599142-200dd4ad-192a-4192-87f6-99a894e4447c.png)
+
+## Summary Statistics on Suspension Coils
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+![image](https://user-images.githubusercontent.com/96396696/162599335-05601357-e6da-404c-89f8-115230280ded.png)
+
+![image](https://user-images.githubusercontent.com/96396696/162599354-373b66d6-0e45-4e03-8ef6-205368a4d5d9.png)
