@@ -25,4 +25,22 @@ The purpose of running these t-tests was to determine if the manufacturing lots 
 ![image](https://user-images.githubusercontent.com/96396696/162599354-373b66d6-0e45-4e03-8ef6-205368a4d5d9.png)
 
 
-The purpose of 
+## Study Design: MechaCar vs Competition
+Consumers looking to purchase a car are interested in more than just looks, mileage, and efficcency. Many customers are thinking about the impact their vehicle will have on the environement. Over the last decade, there has been an increase interest and competition in cars that have a smaller carbon footprint. Therefore, it is in MechaCar's best interest to invesitage how their cars compare to their competitors when it comes to environmental impact. 
+
+*What metric or metrics are you going to test?
+
+In order to measure MechaCar's carbon footprint, we will need to calculate and compare the tailpipe emission of CO2 by measuring fuel consumption to it's competitors. Furthermore, a car's carbon footprint is influenced by more than just fuel consumption but also how often it is serviced. Changing a car's spark plugs and oil often, reduces a vehicle's CO2 emission.
+ 
+ *What is the null hypothesis or alternative hypothesis?
+ 
+ Null: The CO2 emission for the MechaCar prototype is similar to competitors vehicles if the car is serviced every 3 months.
+ Alternative:The CO2 emission for the MechaCar prototype is statistically below that of their competitors vehicles if serviced every 3 months.
+
+*What statistical test would you use to test the hypothesis? And why?
+
+I would use a paired t-test for this analysis because I am comparing two different groups but matching the vehicle types. The subjects will be observed twice. The carbon emission for both groups will be measured and analyzed after three months without being serviced and then they will be serviced and the CO2 emissions will then be measured again at month 6. The mean difference between the two observations will be observed and compared. If there is a difference between the two repated observations then there maybe evidence that getting MechaCar serviced every 3 months reduces it's carbon emission compared to its competitors. 
+
+*What data is needed to run the statistical test?
+
+We will need the fuel consumption for each vehicle and then calcular the CO2 emission from there. We will also need the date and type of servicing done to the vehicle at the 3 month mark. 
