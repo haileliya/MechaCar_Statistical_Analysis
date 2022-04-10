@@ -18,8 +18,11 @@ This linear model tested the quality of the fit of the model and found that the 
 ![image](https://user-images.githubusercontent.com/96396696/162599142-200dd4ad-192a-4192-87f6-99a894e4447c.png)
 
 ## Summary Statistics on Suspension Coils
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The purpose of running these t-tests was to determine if the manufacturing lots are statistically different from the mean population. As you can see from the screenshots below, Lot 1 and 2 are not statistically signifcant since the calculated p-values are not smaller than 0.05. Therefore, for these two lots, we cannot reject the null hypothesis. However, for Lot3, the p-value is 0.04168, therefore statistically signifcant from the mean population, allowing us to reject the null hypothesis. We know that this lot is sigificant to the model we are trying to understand. 
 
 ![image](https://user-images.githubusercontent.com/96396696/162599335-05601357-e6da-404c-89f8-115230280ded.png)
 
 ![image](https://user-images.githubusercontent.com/96396696/162599354-373b66d6-0e45-4e03-8ef6-205368a4d5d9.png)
+
+
+The purpose of 
